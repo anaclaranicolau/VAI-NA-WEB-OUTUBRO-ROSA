@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    list-style: none;
+}
+
+header {
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF69B4;
+    color: #E4EEF1;
+
+
+    img{
+        width: 100px;
+        height: 100px;
+    }
+
+
+    section {
+        display: flex;
+        align-items: center;
+    }
+
+
+    h1 {
+        font-weight: normal;
+    }
+
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        
+        ul {
+            display: flex;
+            justify-content: space-around;
+            
+            li {
+                list-style: none;
+                border: solid  #f365ac 5px;
+            }
+        }
+        a {
+            text-decoration: none;
+            color: #E4EEF1;
+}
+    }
+}
+  
+.main1{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFD9EC;
+
+
+    p {
+        width: 40%;
+        font-size: 25px;
+    }
+
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.main2{
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF69B4;
+
+
+    img {
+        width: 400px;
+        height: 200px;
+    }
+
+
+    p {
+        width: 50%;
+        font-size: 25px;
+        color: #E4EEF1;
+    }
+}
+
+.main3{
+    background-color: #FFD9EC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+footer {
+    background-color: #FF69B4;
+    height: 143px;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+
+    img {
+        height: 58px;
+        width: 56;
+        align-items: center;
+    }
+
+  ul{
+    color: #E4EEF1;
+
+  }
+}
